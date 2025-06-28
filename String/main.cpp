@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+#define delimiter "-------------------------------"
 
 class String
 {
@@ -122,16 +123,16 @@ void main()
 	str4 = str3;
 	cout << str4 << endl;
 
-	cout << "--------Тестирование сложения--------" << endl;
+	cout << delimiter << endl;
 	String str5 = "World";
 	String str6 = str2 + str5;
 	cout << str6 << endl;
 
-	cout << "--------Тестирование +=--------" << endl;
+	cout << delimiter << endl;
 	str2 += str5;
 	cout << str2 << endl;
 
-	cout << "--------Тестирование ввода--------" << endl;
+	cout << delimiter << endl;
 	String str7;
 	cout << "Введите строку: "; cin >> str7;
 	cout << str7 << endl;
