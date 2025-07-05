@@ -1,10 +1,8 @@
-#include "FractionVL4D.h" // ¬ключите заголовочный файл
+#include<FractionVL4D.h>
 
 using namespace std;
 
-#define delimiter "---------------------------------"
-
-void main() 
+void main()
 {
     setlocale(LC_ALL, "");
     Fraction A = 2.75;
